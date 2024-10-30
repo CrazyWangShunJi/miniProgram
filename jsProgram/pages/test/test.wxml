@@ -1,0 +1,11 @@
+<page-meta>
+  <navigation-bar
+    title="this is test"
+    background-color="#F00"
+  />
+</page-meta>
+<view class="container">
+  <text>
+    {{msg}}
+  </text>
+</view>

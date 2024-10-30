@@ -13,7 +13,7 @@ page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #aaa;
+  color: rgb(236, 182, 182);
   width: 80%;
 }
 
@@ -62,9 +62,12 @@ page {
 }
 
 .counter {
-  margin: 5px,
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
 }
 
-.counterText {
-  margin-left: 90px;
-}

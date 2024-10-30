@@ -15,5 +15,18 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  /* 小程序生命周期 */
+  onLaunch() {
+    console.log('小程序初始化');
+  },
+  onShow() {
+    console.log('小程序显示');
+  },
+  onHide() {
+    console.log('小程序隐藏');
+  },
+  onError(msg) {
+    console.log('小程序错误', msg);
   }
 })
